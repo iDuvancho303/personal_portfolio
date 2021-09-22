@@ -1,4 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-fa-github-square {
-    ;
+*{
+   box-sizing: border-box; 
 }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar {
+    background-color: #003060;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#welcome-section {
+    background-color: #afc1d0;
+}
+
+#projects {
+    background-color: #057dcd;
+}
+
+#social {
+    background-color: #43b0f1;
+}
+
+footer {
+    background-color: #003060;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
