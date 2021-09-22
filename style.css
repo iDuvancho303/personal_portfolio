@@ -21,7 +21,9 @@ body {
 }
 
 #welcome-section {
-    background-color: #afc1d0;
+    background-color: 
+   
+
 }
 
 #projects {
@@ -37,3 +39,14 @@ footer {
     color: #fff;
     padding: 15px;
     text-align: center;
+}
+
+footer .fa-heart {
+    color: red;
+}
+
+#header {
+    background-image: url('/images/'
+    height: 500vh;
+    background-size: cover;
+}
