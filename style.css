@@ -30,6 +30,27 @@ body {
 
 #social {
     background-color: #43b0f1;
+    text-align: center;
+    color: #fff;
+}
+
+.social1 h2 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.links1 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.links1 a {
+    color: #fff;
+    font-size: 55px;
+    margin: 0 10px;
 }
 
 footer {
