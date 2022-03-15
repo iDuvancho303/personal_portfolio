@@ -56,7 +56,7 @@ body {
 }
 
 #projects {
-    background-color: #057dcd;
+    background-color: #fff;
 }
 
 #social {
@@ -135,6 +135,7 @@ header {
     background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center center;
+    filter: grayscale(90%);
     height: 80vh;
     position: relative;
     color: #fff;
