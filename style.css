@@ -9,7 +9,24 @@
 body {
     font-family: 'Inconsolata', monospace;
 }
-#navbar {
+
+.box1 h3 {
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+    color: white;
+    width: 50%;
+    z-index: 101;
+    position: fixed;
+    font-size: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-decoration: underline;
+
+}
+
+.box2 {
     background-color: #262729;
     padding: 15px;
     display: flex;
@@ -31,6 +48,7 @@ body {
 #navbar a:hover {
     text-decoration: underline;
 }
+
 
 #welcome-section {
     
