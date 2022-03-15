@@ -164,12 +164,25 @@ footer .fa-heart {
     display: flex;
 }
 
-.about-me-img {
+.about-me-img, .about-me-text {
+    width: 50%; 
+}
 
+.about-me-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #262729;
+    filter: grayscale(80%);
+    margin: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-me-text {
-    
+
 }
 
 /*
