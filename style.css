@@ -153,9 +153,10 @@ footer .fa-heart {
     margin: auto;
     background-color: #fff;
     width: 25%;
-    opacity: 0.9;
+    opacity: ;
     text-align: center;
     border-radius: 2px;
+    filter: none;
 }
 
 /*
