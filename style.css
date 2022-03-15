@@ -169,7 +169,7 @@ footer .fa-heart {
 }
 
 .about-me-img img {
-    width: 400px;
+    width: 350px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #ddd;
@@ -187,7 +187,6 @@ footer .fa-heart {
 }
 
 .about-me-text   {
-    border: 3px solid #262729;
     padding: 20px;   
     margin: auto; 
 }
@@ -195,15 +194,24 @@ footer .fa-heart {
 .about-me-text h2 {
     font-size: 45px;
     font-weight: bold;
-    color: #262729
+    color: #262729;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 .about-me-text h3 {
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .about-me-text p {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid #262729;
+
 }
 
 
