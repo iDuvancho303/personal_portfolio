@@ -160,6 +160,18 @@ footer .fa-heart {
     filter: grayscale(0%);
 }
 
+#about-me {
+    display: flex;
+}
+
+.about-me-img {
+
+}
+
+.about-me-text {
+    
+}
+
 /*
 header h1 {
     font-size: 35px;
