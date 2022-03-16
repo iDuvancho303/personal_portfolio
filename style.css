@@ -31,12 +31,20 @@ body {
     background-color: #262729;
     padding: 15px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
+
+}
+
+.box3 a {
+    display: flex;
+    justify-content: right;
+    z-index: 10;
+    position: fixed;
 }
 
 #navbar a {
