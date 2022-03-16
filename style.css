@@ -12,7 +12,13 @@ body {
 
 /* START NAVBAR SECTION */
 .navbar {
-    
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /* END NAVBAR SECTION */
 
