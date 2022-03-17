@@ -75,6 +75,41 @@ nav ul li a:hover {
 }
 /* END NAVBAR SECTION */
 
+/* START WELCOME SECTION */
+.welcome-section {
+    width: 100%;
+}
+
+.header-img {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: top;
+    justify-content: center;   
+}
+
+
+.welcome-section {
+    font-family: 'Roboto Mono' , monospace;
+    font-size: 30px;
+    color: #003060;
+    font-weight: bolder;
+    padding: 10px 50px;
+    margin: auto;
+    background-color: #fff;
+    width: 25%;
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 2px;
+    filter: grayscale(0%);
+}
+
+/* END WELCOME SECTION */
+
 /* START ABOUT ME SECTION */
 #about-me {
     display: flex;
@@ -137,12 +172,6 @@ nav ul li a:hover {
 }
 /* END PROJECTS SECTION */
 
-
-
-
-.welcome-section {
-    width: 100%;
-}
 
 #projects {
     background-color: #fff;
@@ -212,33 +241,6 @@ footer .fa-heart {
     color: red;
 }
 
-.header-img {
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center center;
-    height: 80vh;
-    position: relative;
-    color: #fff;
-    display: flex;
-    align-items: top;
-    justify-content: center;   
-}
-
-
-.welcome-section {
-    font-family: 'Roboto Mono' , monospace;
-    font-size: 30px;
-    color: #003060;
-    font-weight: bolder;
-    padding: 10px 50px;
-    margin: auto;
-    background-color: #fff;
-    width: 25%;
-    opacity: 0.9;
-    text-align: center;
-    border-radius: 2px;
-    filter: grayscale(0%);
-}
 
 hr {
     margin-left: 10%;
