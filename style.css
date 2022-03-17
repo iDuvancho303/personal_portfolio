@@ -62,14 +62,16 @@ nav ul li a:hover {
     text-decoration: none;
     border: 3px solid transparent;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 25px;
+    transition: transform .4s;
 }
 
 .btn:hover {
     color: rgba(131,215,175,255);
-    transition: 0.3s;
+    transition: ;
     text-decoration: underline;
+    transform: scale(1.2);
 }
 
 
