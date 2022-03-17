@@ -250,38 +250,6 @@ hr {
 }
 
 
-/*
-header h1 {
-    font-size: 35px;
-    text-align: center;
-    margin-top: 80px;
-    font-weight: bolder;
-    
-}
-
-header p {
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
-    margin: 5px;
-}
-
-header::after {
-    content: '';
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.3;
-}
-
-header * {
-    position: relative;
-    z-index: 1;
-}
-*/
 /* ==========================================================*/
 @media only screen and (max-width: 800px) {
     main {
