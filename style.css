@@ -202,7 +202,7 @@ nav ul li a:hover {
     text-align: center;
     color: #fff;
 }
-
+/* START SOCIAL SECTION */
 .social1 h2 {
     padding-top: 25px;
     font-size: 30px;
@@ -222,27 +222,7 @@ nav ul li a:hover {
     margin: 0 30px;
 }
 
-.project-tile {
-    max-width: 400px;
-    margin: 10px;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-}
 
-.project-tile:hover {
-    transform: scale(1.05);
-}
-
-.project-tile img {
-    max-width: 100%;
-}
-
-.project-tile p {
-    color: #fff;
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 10px;
-}
 
 
 /* START FOOTER SECTION */
