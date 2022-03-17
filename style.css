@@ -175,7 +175,6 @@ nav ul li a:hover {
 
 .talk:hover {
     color: rgba(131,215,175,255);
-    transition: ;
     text-decoration: underline;
     transform: scale(1.2);
 }
