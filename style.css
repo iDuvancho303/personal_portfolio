@@ -56,7 +56,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.btn{
+.btn {
     background-color: #003060;
     color: #fff;
     text-decoration: none;
@@ -192,21 +192,20 @@ nav ul li a:hover {
 }
 /* END PROJECTS SECTION */
 
-
-#projects {
-    background-color: #fff;
-}
-
+/* START SOCIAL SECTION */
 #social {
-    background-color: #43b0f1;
+    background-color: #003060;
     text-align: center;
     color: #fff;
 }
-/* START SOCIAL SECTION */
+
 .social1 h2 {
-    padding-top: 25px;
-    font-size: 30px;
+    padding-top: 10px;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
+
 
 .links1 {
     display: flex;
