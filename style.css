@@ -73,9 +73,69 @@ nav ul li a:hover {
     text-decoration: underline;
     transform: scale(1.2);
 }
-
-
 /* END NAVBAR SECTION */
+
+/* START ABOUT ME SECTION */
+#about-me {
+    display: flex;
+}
+
+.about-me-img, .about-me-text {
+    width: 50%; 
+}
+
+.about-me-img img {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding: 5px;
+    filter: grayscale(30%);
+    margin: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me-img:hover img{
+    box-shadow:  0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.about-me-text   {
+    padding: 15px;   
+    margin: auto; 
+}
+
+.about-me-text h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #003060;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.about-me-text h3 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.about-me-text p {
+    font-size: 20px;
+    line-height: 2.5rem;
+}
+/* END ABOUT ME SECTION */
+
+/* START PROJECTS SECTION */
+.projects-title  {
+    font-size: 45px;
+    font-weight: bold;
+    color: #003060;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+/* END PROJECTS SECTION */
 
 
 
@@ -135,17 +195,9 @@ nav ul li a:hover {
     margin-top: 10px;
 }
 
-#projects h2 {
-    color: #fff;
-    text-align: center;
-    font-size: 25px;
 
-}
-.projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+
+
     
 }
 
@@ -186,56 +238,6 @@ footer .fa-heart {
     text-align: center;
     border-radius: 2px;
     filter: grayscale(0%);
-}
-
-#about-me {
-    display: flex;
-}
-
-.about-me-img, .about-me-text {
-    width: 50%; 
-}
-
-.about-me-img img {
-    width: 350px;
-    height: auto;
-    border-radius: 50%;
-    border: 2px solid #ddd;
-    padding: 5px;
-    filter: grayscale(30%);
-    margin: 40px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.about-me-img:hover img{
-    box-shadow:  0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-.about-me-text   {
-    padding: 15px;   
-    margin: auto; 
-}
-
-.about-me-text h2 {
-    font-size: 45px;
-    font-weight: bold;
-    color: #003060;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-.about-me-text h3 {
-    font-size: 23px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-}
-
-.about-me-text p {
-    font-size: 20px;
-    line-height: 2.5rem;
 }
 
 hr {
