@@ -162,7 +162,7 @@ nav ul li a:hover {
     line-height: 2.5rem;
 }
 
-button {
+.talk {
     background-color: #003060;
     color: #fff;
     text-decoration: none;
@@ -173,7 +173,7 @@ button {
     transition: transform .4s;
 }
 
-button:hover {
+.talk:hover {
     color: rgba(131,215,175,255);
     transition: ;
     text-decoration: underline;
@@ -245,17 +245,24 @@ button:hover {
 }
 
 
-
+/* START FOOTER SECTION */
 footer {
-    background-color: #003060;
-    color: #fff;
+    background-color: #FFF;
+    color: #003060;
     padding: 20px;
     text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 footer .fa-heart {
     color: red;
 }
+/* END FOOTER SECTION */
+
 
 
 hr {
