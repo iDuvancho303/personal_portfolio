@@ -225,10 +225,14 @@ nav ul li a:hover {
 
 .links1 a {
     color: #fff;
-    font-size: 55px;
+    font-size: 35px;
     margin: 0 30px;
 }
 
+.testing h6 {
+    font-size: 50px;
+    color: #003060;
+}
 
 
 
