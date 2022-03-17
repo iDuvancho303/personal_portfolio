@@ -56,7 +56,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.btn {
+.btn{
     background-color: #003060;
     color: #fff;
     text-decoration: none;
@@ -170,13 +170,14 @@ nav ul li a:hover {
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 25px;
-    transition: transform .4s;
+    transition: ease-in 0.5s;
 }
 
 .talk:hover {
     color: rgba(131,215,175,255);
     text-decoration: underline;
-    transform: scale(1.2);
+    box-shadow: inset 200px 0 0 0 #fff;
+    color: #003060;
 }
 /* END ABOUT ME SECTION */
 
