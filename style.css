@@ -24,10 +24,16 @@ nav {
 }
 
 .logo1 {
-    color: #fff;
+    color: #003060;
     font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+span {
+    color: rgba(131,215,175,255);   
 }
 
 
@@ -120,7 +126,6 @@ footer .fa-heart {
     background-image: url('images/background.jpg');
     background-size: cover;
     background-position: center center;
-    filter: grayscale(50%);
     height: 80vh;
     position: relative;
     color: #fff;
