@@ -184,6 +184,7 @@ nav ul li a:hover {
 /*  START SERVICES SECTION */
 #services {
     display: flex;
+    text-align: center;
 }
 /* END SERVICES SECTION */
 
