@@ -189,6 +189,7 @@ nav ul li a:hover {
 #services {
     display: flex;
     text-align: center;
+    margin-top: 30px;
 }
 
 #services h6 {
