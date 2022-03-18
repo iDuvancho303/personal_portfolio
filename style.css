@@ -194,6 +194,17 @@ nav ul li a:hover {
 
 #services h6 {
     font-size: 25px;
+    color: rgba(131,215,175,255);
+}
+
+#services h3 {
+    color: #003060;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#servcices p {
+    
 }
 /* END SERVICES SECTION */
 
