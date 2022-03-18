@@ -139,7 +139,7 @@ nav ul li a:hover {
 }
 
 .about-me-text   {
-    padding: 15px;   
+    padding: 20px;   
     margin: auto; 
 }
 
@@ -191,6 +191,7 @@ nav ul li a:hover {
     display: flex;
     text-align: center;
     margin-top: 30px;
+    padding: 0px 20px;
 }
 
 #services h6 {
