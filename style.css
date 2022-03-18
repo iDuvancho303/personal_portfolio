@@ -182,9 +182,17 @@ nav ul li a:hover {
 /* END ABOUT ME SECTION */
 
 /*  START SERVICES SECTION */
+.services-title {
+    width: 50%;
+    text-align: center;
+}
 #services {
     display: flex;
     text-align: center;
+}
+
+#services h6 {
+    font-size: 25px;
 }
 /* END SERVICES SECTION */
 
