@@ -220,6 +220,10 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
+.web-design, .web-dev, .app-dev {
+    padding: 30px;
+}
+
 
 /* END SERVICES SECTION */
 
