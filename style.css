@@ -181,6 +181,12 @@ nav ul li a:hover {
 }
 /* END ABOUT ME SECTION */
 
+/*  START SERVICES SECTION */
+#services {
+    display: flex;
+}
+/* END SERVICES SECTION */
+
 /* START PROJECTS SECTION */
 #projects {
     display: flex;
