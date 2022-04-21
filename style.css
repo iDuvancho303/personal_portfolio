@@ -382,14 +382,10 @@ nav ul li a:hover {
 }
 
 .about-me-img img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    border: 2px solid #ddd;
-    padding: 5px;
-    filter: grayscale(30%);
-    margin: 40px;
-    text-align: center;
+    width: 120px; 
+    border: none; 
+    padding: 0px; 
+    margin: 20px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
