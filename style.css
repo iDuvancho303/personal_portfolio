@@ -316,10 +316,6 @@ hr {
 @media only screen and (max-width: 500px) {
 
     /* START NAVBAR SECTION */
-.navbar {
-    width: 100%;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -329,16 +325,9 @@ nav {
 }
 
 .logo1 {
-    color: #003060;
-    font-size: 30px;
-    letter-spacing: 1px;
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-}
-
-span {
-    color: rgba(131,215,175,255);   
+    font-size: 16px; /* */
+    letter-spacing: none; /* */
+    text-decoration-thickness: 2px; /* */
 }
 
 nav ul li {
