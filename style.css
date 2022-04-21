@@ -397,11 +397,13 @@ nav ul li a:hover {
 .about-me-text h2 {
     font-size: 30px; /* */
     letter-spacing: 1px; /* */
+    text-align: center;
 }
 
 .about-me-text h3 {
     font-size: 20px; /* */
     letter-spacing: 2px; /* */
+    margin-top: 20px; /* */
 }
 
 .about-me-text p {
