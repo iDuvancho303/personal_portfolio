@@ -106,9 +106,6 @@ nav ul li a:hover {
 .welcome-section h2 {
     font-size: 70px;
 }
-
-    
-
 /* END WELCOME SECTION */
 
 /* START ABOUT ME SECTION */
@@ -353,4 +350,38 @@ nav ul li a:hover {
     border-radius: 5px; /* */
 }
 /* END NAVBAR SECTION */
+
+/* START WELCOME SECTION */
+.header-img {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 45vh; /* */
+    position: relative;
+    display: flex;  
+}   
+    
+    
+.welcome-section {
+    font-size: 16px; /* */
+    padding: 5px 0px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 2px;
+    background-color:rgba(255, 255, 255, 0.9);
+
+}
+
+.welcome-section h4 {
+    font-size: 50px;
+}
+
+.welcome-section h2 {
+    font-size: 70px;
+}
+
+    
+
+/* END WELCOME SECTION */
 }
