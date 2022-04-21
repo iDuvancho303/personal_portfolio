@@ -307,11 +307,10 @@ hr {
 }
 
 
-/* ==========================================================*/
-@media only screen and (max-width: 800px) {
-    main {
-        background-color: tomato;
-      /* For mobile phones: */
-    }
-    }
 
+
+
+
+/* MEDIA QUERY */ 
+
+@media screen and (max-width:)
