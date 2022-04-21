@@ -314,5 +314,69 @@ hr {
 /* MEDIA QUERY */ 
 
 @media only screen and (max-width: 500px) {
-    
+
+    /* START NAVBAR SECTION */
+.navbar {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.logo1 {
+    color: #003060;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+span {
+    color: rgba(131,215,175,255);   
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #003060;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: rgba(131,215,175,255);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #003060;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    color: rgba(131,215,175,255);
+    transition: ;
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+/* END NAVBAR SECTION */
 }
