@@ -374,14 +374,15 @@ nav ul li a:hover {
 /* START ABOUT ME SECTION */
 #about-me {
     display: flex;
+    flex-direction: column /* */
 }
 
 .about-me-img, .about-me-text {
-    width: 50%; 
+    width: 100%; /* */ 
 }
 
 .about-me-img img {
-    width: 350px;
+    width: 150px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #ddd;
