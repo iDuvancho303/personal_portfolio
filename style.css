@@ -355,21 +355,98 @@ nav ul li a:hover {
 .header-img {
     height: 35vh;  
 }   
-    
-    
+       
 .welcome-section {
-    font-size: 18px; /* */
-    padding: 5px 0px; /* */
-    border-radius: none; /* */
+    font-size: 18px;
+    padding: 5px 0px;
+    border-radius: none;
 }
 
 .welcome-section h4 {
-    font-size: 20px; /* */
+    font-size: 20px;
 }
 
 .welcome-section h2 {
-    font-size: 30px; /* */
+    font-size: 30px;
+}
+/* END WELCOME SECTION */
+
+/* START ABOUT ME SECTION */
+#about-me {
+    display: flex;
 }
 
-/* END WELCOME SECTION */
+.about-me-img, .about-me-text {
+    width: 50%; 
+}
+
+.about-me-img img {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding: 5px;
+    filter: grayscale(30%);
+    margin: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me-img:hover img{
+    box-shadow:  0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.about-me-text   {
+    padding: 20px;   
+    margin: auto; 
+}
+
+.about-me-text h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #003060;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.about-me-text h3 {
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #003060;
+}
+
+.about-me-text p {
+    font-size: 20px;
+    line-height: 2.5rem;
+}
+
+.talk {
+    background-color: #003060;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: ease-in 0.5s;
+}
+
+.talk:hover {
+    color: rgba(131,215,175,255);
+    text-decoration: underline;
+    box-shadow: inset 200px 0 0 0 #fff;
+    color: #003060;
+}
+/* END ABOUT ME SECTION */
+
+
+
+
+
+
+
+
 }
