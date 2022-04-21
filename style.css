@@ -220,8 +220,6 @@ nav ul li a:hover {
 .web-design, .web-dev, .app-dev {
     padding: 30px;
 }
-
-
 /* END SERVICES SECTION */
 
 /* START PROJECTS SECTION */
@@ -415,8 +413,56 @@ nav ul li a:hover {
     padding: 5px 5px; /* */
     border-radius: 5px;  /* */
 }
-
 /* END ABOUT ME SECTION */
+
+/*  START SERVICES SECTION */
+.services-title {
+    width: 100%; /* */
+}
+
+.projects-title {
+    font-size: 30px;
+    text-align: center;
+}
+#services {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px 20px;
+}
+
+#services h6 {
+    font-size: 30px;
+    color: rgba(131,215,175,255);
+}
+
+#services h3 {
+    color: #003060;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#services h3:hover {
+    color: rgba(131,215,175,255);
+    text-decoration: underline;
+    transition: ease-in .3s;
+}
+
+#services p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.web-design, .web-dev, .app-dev {
+    padding: 30px;
+}
+
+
+/* END SERVICES SECTION */
 
 
 
