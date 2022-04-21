@@ -353,35 +353,23 @@ nav ul li a:hover {
 
 /* START WELCOME SECTION */
 .header-img {
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center center;
-    height: 45vh; /* */
-    position: relative;
-    display: flex;  
+    height: 35vh;  
 }   
     
     
 .welcome-section {
-    font-size: 16px; /* */
-    padding: 5px 0px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    border-radius: 2px;
-    background-color:rgba(255, 255, 255, 0.9);
-
+    font-size: 18px; /* */
+    padding: 5px 0px; /* */
+    border-radius: none; /* */
 }
 
 .welcome-section h4 {
-    font-size: 50px;
+    font-size: 20px; /* */
 }
 
 .welcome-section h2 {
-    font-size: 70px;
+    font-size: 30px; /* */
 }
-
-    
 
 /* END WELCOME SECTION */
 }
