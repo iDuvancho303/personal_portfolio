@@ -393,13 +393,11 @@ nav ul li a:hover {
 
 .about-me-text   {
     padding: 10px; /* */   
-    margin: auto; 
+    margin: auto;  
 }
 
 .about-me-text h2 {
-    font-size: 45px;
-    font-weight: bold;
-    color: #003060;
+    font-size: 30px; /* */
     text-transform: uppercase;
     letter-spacing: 5px;
 }
