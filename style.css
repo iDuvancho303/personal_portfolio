@@ -451,7 +451,7 @@ nav ul li a:hover {
 /* START SOCIAL SECTION */
 
 .social1 h2 {
-    padding-top: 10px;
+    padding-top: 5px; /* */
     font-size: 30px; /* */
     letter-spacing: 1px; /* */
 }
@@ -463,12 +463,12 @@ nav ul li a:hover {
     justify-content: center;
     padding: 0;
     margin: 0;
+    margin-top: 10px;
 }
 
 .links1 a {
-    color: #fff;
-    font-size: 35px;
-    margin: 0 30px;
+    font-size: 30px; /* */
+    margin: 0 15px; /* */
 }
 /* END SOCIAL SOCIAL SECTION */
 
