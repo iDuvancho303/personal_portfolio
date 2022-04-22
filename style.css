@@ -268,7 +268,6 @@ nav ul li a:hover {
 }
 /* END SOCIAL SOCIAL SECTION */
 
-
 /* START FOOTER SECTION */
 footer {
     background-color: #FFF;
@@ -449,7 +448,6 @@ nav ul li a:hover {
 
 
 /* START SOCIAL SECTION */
-
 .social1 h2 {
     padding-top: 5px; /* */
     font-size: 30px; /* */
@@ -470,6 +468,18 @@ nav ul li a:hover {
     margin: 0 15px; 
 }
 /* END SOCIAL SOCIAL SECTION */
+
+/* START FOOTER SECTION */
+footer {
+    padding:5px;
+}
+
+footer p {
+    font-size: 16px; 
+}
+/* END FOOTER SECTION */
+
+
 
 
 
