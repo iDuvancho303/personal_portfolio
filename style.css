@@ -266,12 +266,7 @@ nav ul li a:hover {
     font-size: 35px;
     margin: 0 30px;
 }
-
-.testing h6 {
-    font-size: 50px;
-    color: #003060;
-}
-
+/* END SOCIAL SOCIAL SECTION */
 
 
 /* START FOOTER SECTION */
@@ -425,6 +420,7 @@ nav ul li a:hover {
 .projects-title {
     font-size: 30px;
     text-align: center;
+    letter-spacing: 1px;
 }
 #services {
     flex-wrap: wrap; 
@@ -444,6 +440,37 @@ nav ul li a:hover {
 }
 /* END SERVICES SECTION */
 
+
+
+
+
+
+
+
+
+/* START SOCIAL SECTION */
+
+.social1 h2 {
+    padding-top: 10px;
+    font-size: 30px; /* */
+    letter-spacing: 1px; /* */
+}
+
+
+.links1 {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.links1 a {
+    color: #fff;
+    font-size: 35px;
+    margin: 0 30px;
+}
+/* END SOCIAL SOCIAL SECTION */
 
 
 
