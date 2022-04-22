@@ -427,9 +427,8 @@ nav ul li a:hover {
     text-align: center;
 }
 #services {
-    display: flex;
-    text-align: center;
-    margin-top: 30px;
+    flex-wrap: wrap; /* */ 
+    margin-top: 10px; /* */
     margin-left: 10%;
     margin-right: 10%;
     padding: 0px 20px;
