@@ -236,6 +236,10 @@ nav ul li a:hover {
     padding: 15px;
 }
 
+#project1 img {
+    width: 15%;
+}
+
 /* END PROJECTS SECTION */
 
 /* START SOCIAL SECTION */
