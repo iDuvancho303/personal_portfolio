@@ -241,8 +241,7 @@ nav ul li a:hover {
     padding: 15px;
 }
 
-#project1 h3, 
-#project2 h3 {
+#projects-all h3{
     color: #003060;
     letter-spacing: 3px;
     font-weight: bold;
@@ -251,18 +250,18 @@ nav ul li a:hover {
 }
 
 
-#project1 img, #pro {
+#projects-all img {
     width: 150px;
     border: 3px solid #003060;
 }
 
-#project1 p {
+#projects-all p {
     margin-top: 10px;
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-#project1 a {
+#projects-all a {
     padding-top: 100px;
     background-color: #003060;
     color: #fff;
