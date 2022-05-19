@@ -225,6 +225,11 @@ nav ul li a:hover {
 /* START PROJECTS SECTION */
 #projects {
     display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px 20px;
 }
 
 .projects-title  {
@@ -236,9 +241,24 @@ nav ul li a:hover {
     padding: 15px;
 }
 
-#project1 img {
-    width: 15%;
+#project1 h3 {
+
 }
+
+
+#project1 img {
+    width: 150px;
+    border: 3px solid green;
+}
+
+#project1 p {
+
+}
+
+#project1 a {
+    
+}
+
 
 /* END PROJECTS SECTION */
 
