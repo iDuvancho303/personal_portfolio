@@ -310,6 +310,10 @@ nav ul li a:hover {
 /* END SOCIAL SOCIAL SECTION */
 
 /* START FORM SECTION */
+#form {
+    display: flex;
+    flex-direction: column;
+}
 
 /* END FORM SECTION */
 
