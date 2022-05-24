@@ -328,11 +328,17 @@ nav ul li a:hover {
     background-color: #fff;
     border: 3px solid ;
     text-align: center;
+    outline: none;
 }
 
 #comments {
     resize: none;
     height: 5rem;
+    outline: none;
+}
+
+#comments:focus {
+    box-shadow: 0 0 20px rgba(131,215,175,255);
 }
 
 #label {
