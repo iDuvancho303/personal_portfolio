@@ -334,6 +334,7 @@ nav ul li a:hover {
     resize: none;
     height: 5rem;
     outline: none;
+    font-size: 15px;
 }
 
 ::placeholder {
