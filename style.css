@@ -322,7 +322,6 @@ nav ul li a:hover {
     height: 3rem;
     margin: 10px auto;
     border-radius: 3px;
-    color: #003060;
     font-size: 15px;
     font-weight: bolder;
     background-color: #fff;
@@ -337,8 +336,14 @@ nav ul li a:hover {
     outline: none;
 }
 
+::placeholder {
+    color: #003060;
+    opacity: 1;
+}
+
 #comments:focus {
-    box-shadow: 0 0 20px rgba(131,215,175,255);
+    box-shadow: 0 0 10px rgba(131,215,175,255);
+    border: 3px solid rgba(131,215,175,255);
 }
 
 #label {
