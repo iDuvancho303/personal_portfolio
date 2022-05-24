@@ -310,7 +310,9 @@ nav ul li a:hover {
 /* END SOCIAL SOCIAL SECTION */
 
 /* START FORM SECTION */
+#form {
 
+}
 
    
 
@@ -342,6 +344,12 @@ nav ul li a:hover {
     font-size: 15px;
     font-weight: bolder;
     text-align: center;
+}
+
+.radio {
+    text-align: center;
+    color: #003060;
+    font-weight: bolder;
 }
 
 #submit {
