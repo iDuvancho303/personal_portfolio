@@ -310,9 +310,8 @@ nav ul li a:hover {
 /* END SOCIAL SOCIAL SECTION */
 
 /* START FORM SECTION */
-#form {
-    background-color:;
-}
+
+
    
 
 #name, #last, #email, #phone, #comments, #submit {
@@ -326,10 +325,27 @@ nav ul li a:hover {
     font-weight: bolder;
     background-color: #fff;
     border: 3px solid ;
+    text-align: center;
+}
 
+#comments {
+    resize: none;
+    height: 5rem;
+}
 
+#label {
+    display: block;
+    width: 300px;
+    height: 3rem;
+    margin: 10px auto;
+    color: #003060;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+}
 
-
+#submit {
+    width: 150px;
 }
 
 /* END FORM SECTION */
