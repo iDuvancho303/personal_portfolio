@@ -310,8 +310,12 @@ nav ul li a:hover {
 /* END SOCIAL SOCIAL SECTION */
 
 /* START FORM SECTION */
-#form {
-
+.form1 {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color: #003060;
+    justify-content: center;
 }
 
    
