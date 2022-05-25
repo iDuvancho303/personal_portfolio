@@ -375,6 +375,7 @@ nav ul li a:hover {
 
 #submit {
     width: 150px;
+    cursor: pointer;
 }
 
 /* END FORM SECTION */
