@@ -10,7 +10,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/4b1c7a602c.js" crossorigin="anonymous"></script>
-<script defer src="script.js"></script>
 </head>
 <!--NAVBAR SECTION-->
 <section class="navbar">
@@ -138,7 +137,7 @@
 <!--ENDS FORM SECTION-->
 <section id="form">
     <div class="form1">
-    <form id="myform" class="form">
+    <form id="myform" class="form" onsubmit="sendEmail(); reset(); return false;">
         <input type="text" id="name" name="name" placeholder="name">
         <input type="text" name="last" id="last" placeholder="Last Name">
         <input type="text" name="email" id="email" placeholder="Email" >
@@ -177,6 +176,21 @@
 </footer>
 <!--ENDS FOOTER SECTION-->
 
-<script defer src="script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+        Host : "smtp.yahoo.com",
+        Username : "duvancho303@yahoo.com",
+        Password : "Logitech33!",
+        To : 'duvancho303@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "Nes contact form rnquiry",
+        Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+    }
+</script>
 
 </html>
