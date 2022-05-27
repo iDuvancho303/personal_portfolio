@@ -551,6 +551,62 @@ nav ul li a:hover {
 }
 /* END SERVICES SECTION */
 
+/* START PROJECTS SECTION */
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.projects-title  {
+    font-size: 45px;
+    font-weight: bold;
+    color: #003060;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 15px;
+}
+
+#projects-all {
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+#projects-all h3{
+    color: #003060;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+#projects-all img {
+    width: 150px;
+    border: 3px solid #003060;
+}
+
+#projects-all p {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#projects-all a {
+    padding-top: 100px;
+    background-color: #003060;
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+/* END PROJECTS SECTION */
+
 
 
 
