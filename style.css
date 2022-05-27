@@ -561,15 +561,6 @@ nav ul li a:hover {
     margin-right: 10%;
 }
 
-.projects-title  {
-    font-size: 45px;
-    font-weight: bold;
-    color: #003060;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    padding: 15px;
-}
-
 #projects-all {
     width: 50%;
     margin-bottom: 3rem;
