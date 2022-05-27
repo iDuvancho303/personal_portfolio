@@ -69,7 +69,7 @@ nav ul li a:hover {
 
 .btn:hover {
     color: rgba(131,215,175,255);
-    transition: ;
+    /*transition: ; */
     text-decoration: underline;
     transform: scale(1.2);
 }
@@ -553,31 +553,16 @@ nav ul li a:hover {
 
 /* START PROJECTS SECTION */
 #projects {
-    display: flex;
-    flex-direction: column; /* */
-    text-align: center; 
-    margin-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+    flex-direction: column; /* */ 
 }
 
 #projects-all {
     width: 100%; /* */
-    margin-bottom: 3rem;
+    margin-bottom: 5rem; /* */
 }
-
-#projects-all h3{
-    color: #003060;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
 
 #projects-all img {
-    width: 150px;
-    border: 3px solid #003060;
+    width: 125px; /* */
 }
 
 #projects-all p {
