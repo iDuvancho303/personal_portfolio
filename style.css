@@ -614,6 +614,7 @@ nav ul li a:hover {
 
 .links1 {
     margin-top: 10px;
+    height: 40px; /* */
 }
 
 .links1 a {
