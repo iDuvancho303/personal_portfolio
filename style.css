@@ -319,7 +319,6 @@ nav ul li a:hover {
     justify-content: center;
     width: 350px;
     background-color: #003060;
-    justify-content: center;
 }
 
    
@@ -573,6 +572,74 @@ nav ul li a:hover {
     padding: 1px 5px; /* */
 }
 /* END PROJECTS SECTION */
+
+/* START FORM SECTION */
+#form {
+    display: flex;
+    justify-content: center;
+}
+.form1 {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    background-color: #003060;
+}
+
+   
+
+#name, #last, #email, #phone, #comments, #submit {
+    display: block;
+    width: 300px;
+    height: 3rem;
+    margin: 10px auto;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #fff;
+    border: 3px solid ;
+    text-align: center;
+    outline: none;
+}
+
+#comments {
+    height: 5rem;
+    font-size: 12px; /* */
+}
+
+::placeholder {
+    color: #003060;
+    opacity: 1;
+}
+
+#comments:focus {
+    box-shadow: 0 0 10px rgba(131,215,175,255);
+    border: 3px solid rgba(131,215,175,255);
+}
+
+#label {
+    display: block;
+    width: 300px;
+    height: 3rem;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.radio {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#submit {
+    width: 150px;
+    cursor: pointer;
+}
+
+/* END FORM SECTION */
 
 
 
